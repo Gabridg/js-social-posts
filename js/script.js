@@ -25,3 +25,17 @@ Se clicchiamo sul tasto "Mi Piace" cambiamo il colore al testo del bottone e inc
 # Consigli del giorno:
  Ragioniamo tanto sulla definizione dell'oggetto, se sbagliamo quello tutto diventa più difficile!
 */
+
+// MILESTONE 1
+const gallery = [
+    {
+        postNumber: 1,
+        author: 'Phil Mangione',
+        authorSrc: 'PM',
+        date: '4 mesi fa',
+        postText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi necessitatibus debitis quasi ab nostrum commodi id tenetur praesentium soluta.',
+        src: 'https://unsplash.it/300/300?image=15',
+        likes: '80',
+    }
+]
+console.table(gallery)
